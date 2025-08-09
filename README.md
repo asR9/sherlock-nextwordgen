@@ -42,6 +42,3 @@ GPT-2 Embeddings (768d) → Linear (128d) → 2-Layer LSTM → 4-Head Attention 
 - `sherlock_nextwordgen.ipynb` - Main training notebook
 - `pyproject.toml` - Dependencies (for uv)
 - `README.md` - This file
-
-## Usage
-The model generates text in the style of Arthur Conan Doyle's Sherlock Holmes stories. Simply run the notebook cells to train the model and generate your own Holmes-style text!
