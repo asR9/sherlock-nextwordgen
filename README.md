@@ -12,10 +12,14 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 git clone https://github.com/yourusername/sherlock-nextwordgen.git
 cd sherlock-nextwordgen
 
-# Install dependencies
-uv pip install -e .
+# Create and activate venv
+uv venv
+source .venv/bin/activate  
 
-# Run Jupyter notebook
+# Install dependencies
+uv pip install -r requirements.txt
+
+# Run notebook
 uv run jupyter notebook sherlock_nextwordgen.ipynb
 ```
 
