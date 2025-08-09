@@ -1,0 +1,17 @@
+
+[project]
+name = "sherlock-nextwordgen"
+version = "1.0.0"
+description = "LSTM + Attention model for next-word prediction on Sherlock Holmes text"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+    "tqdm>=4.65.0",
+    "requests>=2.31.0",
+    "numpy>=1.24.0",
+    "jupyter>=1.0.0",
+    "ipykernel>=6.25.0",
+]
