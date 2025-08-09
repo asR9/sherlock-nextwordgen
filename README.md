@@ -4,10 +4,10 @@ LSTM + Multi-head Attention model trained on Sherlock Holmes stories for next-wo
 
 ## Quick Start
 
-### Option 1: Google Colab (Runs in <2 mins)
+### Option 1: Google Colab (Runs in 1 min with T4 GPU)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/asR9/sherlock-nextwordgen/blob/main/sherlock_nextwordgen.ipynb)
 
-Simply click the badge above to run the notebook directly in Google Colab. 
+Simply click the badge above to run the notebook directly in Google Colab. Select T4 GPU and click run
 
 ### Option 2: Local Setup
 ```bash
